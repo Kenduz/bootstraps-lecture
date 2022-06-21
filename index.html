@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOTSTRAP LECTURE</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <!-- Navigation Bar with bootstrap  -->
+    <ul class="nav">
+        <li class="nav item"><a href="" class="nav-link">Home</a></li>
+        <li class="nav item"><a href="" class="nav-link">Service</a></li>
+        <li class="nav item"><a href="" class="nav-link">About</a></li>
+        <li class="nav item"><a href="" class="nav-link">Contact</a></li>
+    </ul>
+
+    <!-- we can change the position of our nav bar by using the class keywolds
+    justify-content-top(for the left side), justify-content-center(middle position), justify-content-end (right side placement)  -->
+    <ul class="nav justify-content-center">
+        <li class="nav item"><a href="" class="nav-link">Home</a></li>
+        <li class="nav item"><a href="" class="nav-link">Service</a></li>
+        <li class="nav item"><a href="" class="nav-link">About</a></li>
+        <li class="nav item"><a href="" class="nav-link">Contact</a></li>
+    </ul>
+
+    <!-- To change the background color of any element simply add the following class;
+     bg-dark(black), bg-light(light), bg-danger(red), bg-warning(yellow), bg-success(green)
+     bg-primary(blue), bg-secondary(grey), bg-info(cyan), bg-default(no color specifield) -->
+
+     <ul class="nav bg-warning justify-content-end"> <label for="">H A M - PLC</label>
+        <li class="nav item"><a href="" class="nav-link">Home</a></li>
+        <li class="nav item"><a href="" class="nav-link">Service</a></li>
+        <li class="nav item"><a href="" class="nav-link">About</a></li>
+        <li class="nav item"><a href="" class="nav-link">Contact</a></li>
+    </ul>
+
+    <!-- Buttons and Anchor Buttons -->
+    <!-- we can easily style a button using the class name btn  -->
+
+    <button class="btn">send</button>
+    <!-- colours can be added to buttons by the use of class name like ;
+    btn-success(green), btn-warning(red), btn-dark(black),
+    btn-light(white), btn-primary(blue), btn-secondary(grey),
+    btn-info(cyon),btn-default(no color) -->
+
+    <button class="btn btn-info">Done</button> <button class="btn btn warning">Login</button>
+    <button class="btn btn-dark">Register</button> <button class="btn btn-success">Start</button> <br>
+
+    <!-- Anchor tags can be used to creat button by adding 
+    the class names mentioned above  -->
+
+<a href="" class="btn btn-danger">Anchor Button</a>
+<a href="" class="btn btn-primary">Another Anchor Button</a>
+
+<!-- Borther colours for buttons can be achieved by using the 
+following class names;
+btn-outline-success(Green Borther), btn-outline-warning(Yellow Borther),
+btn-outline-dark(Black Borther), btn-outline-light(White Borther),
+btn-outline-danger(Red Borther), btn-outline-primary(Blue Borther),
+btn-outline-secondary(Grey Borther), btn-outline-default(No Borther)
+ -->
+<a href="" class="btn btn-outline-dark">Submit</a> <a href="" class="btn btn-outline-info">Enter</a> 
+
+<button class="btn btn-outline-success">Finish</button> 
+
+<!-- The size of the button can be made big or small with the class names;
+btn-lg(Big Size), btn-sm(smaall size), btn-xs(Extra Ssmall) 
+ -->
+
+ <button class="btn btn-danger btn-lg">Big Button</button>
+ <a href="" class="btn btn-outline-danger btn-lg">Anchor Big Button</a> <br>
+
+ <!-- Normal Size Button  -->
+
+ <a href="" class="btn btn-dark">Normal Size Anchor</a> 
+ <button class="btn btn-Normal Sized"></button>
+
+ <!-- Small Size  -->
+
+ <a href="" class="btn btn-info btn-sm">Small Size Anchor</a> 
+ <button class="btn btn-outline-primary btn-sm">Small Size Button</button>
+
+ <!-- Extral Small Size  -->
+
+ <a href="" class="btn btn-outline-warning btn-xs">Extra Small</a> 
+ <button class="btn btn-outline-secondary btn-xs">Extra Small Button</button>
+
+
+
+
+ <!-- GRID SYSTEM -->
+
+ <div class="container Border bg-info">
+     container
+ </div>
+
+ <div class="Container-fluid border bg-primary">
+    Container fluid
+
+ </div>
+ <!-- 3 colomn Grid  -->
+
+ <div class="container">
+     <div class="row">
+         <div class="col-4 bg-success">
+             <h2>first colomn</h2>
+             <p>This is a simple Paragraph</p>
+         </div>
+         <div class="col-4 bg-danger">
+             <h2>Second Colomn</h2>
+             <p>This is a simple Paragraph</p>
+         </div>
+         <div class="col-4 bg-secondary">
+             <h2>Third Colomn</h2>
+             <p>This is a simple Paragraph</p>
+
+         </div>
+     </div>
+ </div>
+ 
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
